@@ -15,6 +15,7 @@ export default function page({ searchParams }: any) {
         { label: "Delete", value: "delete" },
       ]}
       createButtonName={"Create User"}
+      updateButtonTitle="Update"
       createButtonRouter="/"
       columns={[
         {
